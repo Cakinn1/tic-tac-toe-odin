@@ -1,0 +1,23 @@
+#grid {
+  height: 305px;
+  width: 305px;
+  border: black solid 1px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#grid div {
+  border: black 1px solid;
+  height: 100px;
+  width: 100px;
+}
+
+.x-icon {
+  background-image: url('x.png');
+  background-size: cover;
+}
+.o-icon {
+  background-image: url('o.png');
+  background-size: cover;
+}
+
